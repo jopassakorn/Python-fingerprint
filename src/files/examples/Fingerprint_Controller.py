@@ -102,7 +102,7 @@ def clockIn(id):
 
         if (positionNumber == -1):
             print('No match found!')
-            exit(0)
+            return 0
         else:
             if(str(id) == str(positionNumber)):
                 return str(accuracyScore)
